@@ -30,6 +30,7 @@ System.out.print(curr.data + "");
 curr = curr.next;
 }
 }
+}
 
 
 
