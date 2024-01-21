@@ -1,0 +1,9 @@
+operations that can be performed on linked list:
+
+1. insert(add)
+add node at 1st position
+add noode at last position
+add node at any position
+add node after a given key
+
+2.DELETE(REMOVE)
