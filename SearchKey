@@ -1,0 +1,28 @@
+Class Node
+{
+int data;
+Node next;
+Node(int d)
+{
+this.data =d;
+this.next = null;
+}
+
+Public void SearchKey(int key)
+{
+if(head==null)
+{
+    System.out.println("empty list");
+    return;
+}
+Node curr = head;
+while(curr!=null)
+{
+if(curr.data==key)
+{
+System.out.print("Success");
+}
+return;
+curr = curr.next;
+}
+}
