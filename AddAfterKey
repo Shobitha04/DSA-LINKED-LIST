@@ -1,0 +1,28 @@
+Class Node
+{
+int data;
+node next;
+Node(int d)
+{
+this.data = d;
+this.next  = null;
+}
+Public void AddAfterKey(data, int key)
+{
+if(head==null)
+{
+System.out.println("empty list");
+}
+Node new node = New Node(data)
+node curr = head;
+while(curr!=null)
+{
+if(curr.data==key)
+{
+new node.next =curr.next;
+curr.next = new node;
+}
+curr = curr.next;
+}
+}
+}
