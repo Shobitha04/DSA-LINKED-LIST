@@ -1,0 +1,30 @@
+Class Node
+{
+  int data;
+  Node next;
+Node(int d)
+  {
+    this.data = d;
+    thise.next = null;
+  }
+Public void RemoveKey(int key)
+  {
+    if(head==null)
+      {
+      System.out.println("empty list");
+      }
+    if(head.data==key)
+      {
+      head = head.next;
+      }
+    Node curr = head;
+    while(curr.next!=null)
+      {
+      if(curr.next.data==key)
+        {
+        curr.next = curr.next.next;
+        }
+      curr = curr.next;
+      }
+    }
+  }
