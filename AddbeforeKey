@@ -1,0 +1,33 @@
+Class Node
+{
+int data;
+Node next;
+Node(int d)
+{
+this.data = d;
+this.next = null;
+}
+Public void AddBeforeKey(data,int key)
+{
+Node newnode = new Node(data)
+if(head==null)
+{
+System.out.println("empty list");
+}
+if(head.data==key)
+{
+newnode.next = head;
+head = newnode;
+}
+Node curr = head;
+while(curr!=null)
+{
+if(curr.next.data==key)
+{
+newnode.next = curr.next;
+curr.next = newnode;
+}
+curr = curr.next;
+}
+}
+}
