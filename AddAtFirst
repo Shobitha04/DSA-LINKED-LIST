@@ -1,0 +1,21 @@
+Class Node
+{
+int data;
+Node next;
+Node(int d)
+{
+this.data=d;
+this.next=null;
+}
+public void AddAtFirst(int data)
+{
+if(head==null)
+{
+head = newnode;
+}
+Node newnode = new Node(data);
+newnode.next = head;
+head = newnode;
+return;
+}
+}
