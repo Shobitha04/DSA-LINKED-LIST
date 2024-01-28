@@ -1,28 +1,27 @@
-Class Node
+Class node
 {
 int data;
-Node next;
+Node node;
 Node(int d)
 {
-this.data =d;
-this.next = null;
+this.data=d;
+this.next=null;
 }
-
-Public void SearchKey(int key)
+Public void Searchkey(int key)
 {
 if(head==null)
 {
-    System.out.println("empty list");
-    return;
+System.out.println("empty list");
 }
-Node curr = head;
+node curr = head;
 while(curr!=null)
 {
 if(curr.data==key)
 {
-System.out.print("Success");
+System.out.println("key found");
 }
 return;
 curr = curr.next;
+}
 }
 }
