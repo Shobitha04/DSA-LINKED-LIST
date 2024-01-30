@@ -1,6 +1,6 @@
 Class Node
 {
-int data;
+int data;//data
 Node next;
 Node(int d)
 {
