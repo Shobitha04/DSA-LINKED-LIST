@@ -4,7 +4,7 @@ int data;//data
 Node next;
 Node(int d)
 {
-this.data = d;
+this.data = d;//data
 this.next = null;
 }
 Public void addLast(int data)
