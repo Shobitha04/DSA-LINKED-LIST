@@ -1,0 +1,13 @@
+void AddFirst(int data)
+{
+if(tail==null)
+{
+tail = newnode;
+tail.next=tail;
+}
+else
+{
+newnode.next = tail.next;
+tail.next = newnode;
+}
+}
