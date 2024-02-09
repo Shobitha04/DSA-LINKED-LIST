@@ -1,0 +1,22 @@
+public void Search key(int key)
+{
+  if(tail==null)
+  {
+    System.out.println("search not possible");
+  }
+  if(tail.data==key)
+  {
+    System.out.println("key found in last pos");
+  }
+  int pos = 1;
+  node curr = tail.next;
+  while(curr!=tail)
+  {
+    if(curr.data==key)
+    {
+      System.out.println("search key found in " +pos);
+    }
+    curr = curr.next;
+    pos++;
+  }
+}
