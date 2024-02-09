@@ -1,0 +1,10 @@
+void AddLast(int data)
+{
+Node newnode = new Node(data);
+if(tail==null)
+{
+    newnode.next = tail.next;
+    tail.next = newnode;
+    tail = newnode;
+  }
+  }
