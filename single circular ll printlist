@@ -1,0 +1,14 @@
+void PrintList(linked list list)
+{
+if(tail==null)
+{
+System.out.println("empty");
+}
+node curr = tail.next;
+do
+{
+System.out.println(curr.data);
+curr = curr.next;
+}
+while(curr!=tail.next);
+}
