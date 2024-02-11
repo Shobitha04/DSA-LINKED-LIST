@@ -14,7 +14,7 @@ if(head==null)
 head = newnode;
 }
 Node newnode = new Node(data);
-newnode.next = head;
+newnode.next = head;// link from right to left
 head = newnode;
 return;
 }
