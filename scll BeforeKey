@@ -1,0 +1,18 @@
+Public void BeforeKey(int data, int key)
+{
+if(tail==null)
+{
+System.out.println("empty list");
+}
+Node newnode = new Node(data);
+Node curr = tail;
+do{
+if(curr.next.data==key)
+{
+newnode.next = curr.next;
+curr.next = newnode;
+}
+curr = curr.next;
+}
+while(curr!=tail)
+}
