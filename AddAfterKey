@@ -20,7 +20,7 @@ while(curr!=null)
 if(curr.data==key)
 {
 new node.next =curr.next;
-curr.next = new node;
+curr.next = new node;//after key
 }
 curr = curr.next;
 }
