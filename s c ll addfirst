@@ -8,6 +8,6 @@ tail.next=tail;
 else
 {
 newnode.next = tail.next;
-tail.next = newnode;
+tail.next = newnode;//add at first
 }
 }
