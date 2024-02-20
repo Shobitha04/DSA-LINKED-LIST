@@ -2,7 +2,7 @@ public void Search key(int key)
 {
   if(tail==null)
   {
-    System.out.println("search not possible");
+    System.out.println("search not possible");//null list
   }
   if(tail.data==key)
   {
