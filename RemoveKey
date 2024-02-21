@@ -9,7 +9,7 @@ Node(int d)
   }
 Public void RemoveKey(int key)
   {
-    if(head==null)
+    if(head==null)//emptyyu
       {
       System.out.println("empty list");
       }
