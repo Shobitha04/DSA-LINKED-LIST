@@ -9,7 +9,7 @@ this.next=null;
 }
 Public void Searchkey(int key)
 {
-if(head==null)
+if(head==null)//empty
 {
 System.out.println("empty list");
 }
