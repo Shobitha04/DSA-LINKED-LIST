@@ -1,6 +1,6 @@
 void PrintList(linked list list)
 {
-if(tail==null)
+if(tail==null)//empty list
 {
 System.out.println("empty");
 }
