@@ -7,3 +7,4 @@ add node at any position
 add node after a given key
 
 2.DELETE(REMOVE)
+node.next.next
