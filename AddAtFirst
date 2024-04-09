@@ -9,7 +9,7 @@ this.next=null;
 }
 public void AddAtFirst(int data)
 {
-if(head==null)
+if(head==null)//no node
 {
 head = newnode;
 }
